@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Admin Dashboard</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!-- Work to be done for future: make it so from the client pov, when order submitted, it shows up here-->
+  <div id="main">
+    <div id="orderPanel">
+      <h2>Order Panel</h2>
+      <div class="order">
+        <p>User: John Doe</p>
+        <p>Order Info: Info Would Go here</p>
+      </div>
+      <div class="order">
+        <p>User: Jane Smith</p>
+        <p>Order Info: Info Would Go here</p>
+      </div>
+      <!-- Add more order entries here -->
+      <!-- Question to discuss: At the moment, I have physically hard coded the orders page.
+      To achieve communication between the client end and the admin panel, we will need to implement
+       a backend server to handle the data exchange.we would need to use a server-side programming 
+       language, prolly PHP or node.js.
+      
+      Steps To Do That:
+      * Extract the order data from the request payload and process it as needed (e.g., store it in a database).
+      * Send a response back to the client with an appropriate status or confirmation message.
+      * We gotta use JavaScript to fetch the order data from the server-side script. 
+      * Iterate over the received data and dynamically create HTML elements to display the orders in the 
+        order panel container.
+    -->
+    </div>
+
+    <div id="statusControl">
+      <h2>Status Control</h2>
+      <div id="title">Press this button to send an alert to the customer when their order is ready to be picked up</div>
+      <div id="statusButton">
+        <button onclick="sendStatusAlert()">Send Alert</button>
+      </div>
+    </div>
+
+    <div id="lockControl">
+      <h2>Control Lock</h2>
+      <div id="title">Control lock: <input id="lockIDInput" maxlength="2"></input></div>
+      <div id="lockButtons">
+        <button onclick="switchState(1)" class="underline">LOCK</button>
+        <button onclick="switchState(0)">UNLOCK</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="../jquery-3.2.1.js"></script>
+  <script src="../script.js"></script>
+</body>
+
+</html>

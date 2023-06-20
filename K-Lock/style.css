@@ -1,0 +1,138 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 16px;
+  background-color: #F2F2F2;
+  color: #2a438c;
+}
+
+#main {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+#orderPanel,
+#statusControl,
+#lockControl {
+  width: 40%;
+  padding: 20px;
+  background-color: #FFF;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+}
+
+h2 {
+  font-size: 18px;
+  color: #2a438c;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.order {
+  margin-bottom: 10px;
+}
+
+#lockButtons,
+#statusButton {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+#lockButtons button,
+#statusButton button {
+  font-size: 16px;
+  margin-top: 5px;
+  padding: 5px;
+  background-color: #3a539c;
+  color: #F2F2F2;
+  border-radius: 15px;
+}
+
+#lockButtons button:hover,
+#statusButton button:hover {
+  cursor: pointer;
+  background-color: #2a438c;
+}
+
+#lockButtons .underline {
+  text-decoration: underline;
+}
+
+#lockIDInput {
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-size: 16px;
+    background-color: #F2F2F2;
+    color: #2a438c;
+  }
+  
+  #main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+  }
+  
+  #orderPanel,
+  #statusControl,
+  #lockControl {
+    width: 40%;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  h2 {
+    font-size: 18px;
+    color: #2a438c;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  .order {
+    margin-bottom: 10px;
+  }
+  
+  #lockButtons,
+  #statusButton {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  
+  #lockButtons button,
+  #statusButton button {
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #3a539c;
+    color: #F2F2F2;
+    border-radius: 15px;
+  }
+  
+  #lockButtons button:hover,
+  #statusButton button:hover {
+    cursor: pointer;
+    background-color: #2a438c;
+  }
+  
+  #lockButtons .underline {
+    text-decoration: underline;
+  }
+  
+  #lockIDInput {
+    font-size: inherit;
+    width:1.3em;
+    height: 1em;
+    margin-top: -5px; 
+}
+}

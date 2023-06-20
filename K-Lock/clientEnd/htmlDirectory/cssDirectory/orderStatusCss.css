@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .welcome-title {
+    text-align: left;
+    color: #00BFFF;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid #00BFFF;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  img {
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .left-section {
+    padding: 20px;
+  }
+  
+  .order-status-box {
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 0;
+    color: #000;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-style: italic;
+  }
+  
